@@ -29,34 +29,57 @@ A secure REST API built with Go that allows users to register, login, and manage
 
 How to Run
 1.go mod tidy
+
 2.go run .
+
 3.server now runs at : http://localhost:8080
 
 API Endpoints
+
 Auth
+
 Register
+
 POST /register
+
 Login
+
 POST /login
+
 Tasks (Protected Routes)
 
 All task routes require:
+
 Authorization: Bearer YOUR_TOKEN
+
 Create Task
+
 POST /api/tasks
+
 Get Tasks
+
 GET /api/tasks
+
 Update Task
+
 PUT /api/tasks/{id}
+
 Delete Task
+
 DELETE /api/tasks/{id}
 
  What I Learned
+ 
 1.Building REST APIs in Go
+
 2.JWT authentication
+
 3.Middleware usage
+
 4.Secure password storage with bcrypt
+
 5.CRUD operations with SQLite
+
 6.Structuring backend projects
 
 Project Goal
