@@ -28,11 +28,9 @@ A secure REST API built with Go that allows users to register, login, and manage
 5. Token is used for all protected routes
 
 How to Run
-bash
-go mod tidy
-go run .
-Server runs at:
-http://localhost:8080
+1.go mod tidy
+2.go run .
+3.server now runs at : http://localhost:8080
 
 API Endpoints
 Auth
