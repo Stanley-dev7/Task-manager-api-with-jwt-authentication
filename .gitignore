@@ -1,0 +1,7 @@
+tasks.db
+*.db
+
+.env
+
+bin/
+app
