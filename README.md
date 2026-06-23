@@ -1,6 +1,6 @@
-# Task Manager API
+# task Manager API
 
-A lightweight Go backend for managing personal tasks with secure authentication.
+A lightweight Go baTckend for managing personal tasks with secure authentication.
 
 This project demonstrates a practical REST API for user registration, login, and user-scoped task management using JWT authentication and SQLite.
 
