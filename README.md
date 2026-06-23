@@ -1,4 +1,4 @@
-# task Manager API
+# Task Manager API
 
 A lightweight Go baTckend for managing personal tasks with secure authentication.
 
